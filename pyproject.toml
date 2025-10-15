@@ -1,0 +1,13 @@
+[project]
+name = "StarTrailsInPython"
+version = "1.0.0"
+description = "Create star trail images and timelapse videos from a series of photos."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "av==14.4",
+    "imageio==2.37.0",
+    "numpy==2.3.4",
+    "pillow==12.0.0",
+    "tqdm==4.67.1",
+]
