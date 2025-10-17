@@ -312,8 +312,8 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "pre-commit", specifier = ">=4.3.0" },
-    { name = "ruff", specifier = ">=0.14.1" },
+    { name = "pre-commit", specifier = "==4.3.0" },
+    { name = "ruff", specifier = "==0.14.1" },
 ]
 
 [[package]]
