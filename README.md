@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/a23a6de4-e19d-4c2e-8bec-afd0c538a003
 
 ## Features
 
-### Stacking images
+### Stack images
 
 You can stack multiple images to create a star trails effect. You have three scripts that control the shape of the trails:
 
@@ -24,7 +24,7 @@ Here are images generated using each of the three scripts:
 |:--------------:|:-----------:|:-----------:|
 | ![stacked_star_trails.jpg](./images/stacked_star_trails.jpg) | ![stacked_star_trails_comet_style.jpg](./images/stacked_star_trails_comet_style.jpg) | ![stacked_star_trails_fade_in_out.jpg](./images/stacked_star_trails_fade_in_out.jpg) |
 
-### Creating timelapse videos
+### Create timelapse videos
 
 Before creating a timelapse video, use the [generate_timelapse_frames.py](./generate_timelapse_frames.py) script to generate frames from your images. After generating the frames, you can create a timelapse video using the [create_timelapse_video.py](./create_timelapse_video.py) script.
 
