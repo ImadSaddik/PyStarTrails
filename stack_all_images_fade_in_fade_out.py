@@ -10,9 +10,6 @@ print(f"Found {len(image_files)} image files.")
 if not image_files:
     raise ValueError("No image files found!")
 
-first_image_array = convert_image_to_array(image_files[0])
-stacked_array = np.zeros(first_image_array.shape, dtype=np.float32)
-
 stacked_array = None
 number_of_images = len(image_files)
 mid_point = (number_of_images - 1) / 2.0
