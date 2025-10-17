@@ -31,3 +31,46 @@ Before creating a timelapse video, use the [generate_timelapse_frames.py](./gene
 Here is the timelapse that I generated from my star trails images in 60 FPS:
 
 ![timelapse_60fps.gif](./images/timelapse_60fps.gif)
+
+## Usage
+
+First, clone the repository and navigate to the project directory:
+
+```bash
+git clone git@github.com:ImadSaddik/PyStarTrails.git
+cd PyStarTrails
+```
+
+Install the [uv](https://github.com/astral-sh/uv) package manager if you don't have it already:
+
+```bash
+# On macOS and Linux.
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# On Windows.
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+Now, update the project's environment:
+
+```bash
+uv sync
+```
+
+To stack images, run one of the stacking scripts. For example, to use the basic stacking script:
+
+```bash
+uv run python stack_all_images.py
+```
+
+To create a timelapse video, first generate the frames:
+
+```bash
+uv run python generate_timelapse_frames.py
+```
+
+Then, create the timelapse video:
+
+```bash
+uv run python create_timelapse_video.py
+```
