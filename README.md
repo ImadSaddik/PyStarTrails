@@ -74,3 +74,12 @@ Then, create the timelapse video:
 ```bash
 uv run python create_timelapse_video.py
 ```
+
+## Future work
+
+I have pushed the first version of this project earlier than expected to share it with everyone. I have more ideas in mind to improve this project, I will work on them when I find some free time:
+
+- [ ] Add a GUI (Graphical User Interface) to make it easier for users to select images and choose options.
+- [ ] Separate the GUI from the CLI (Command-Line Interface) scripts.
+- [ ] Add support for gap filling in star trails.
+- [ ] Add the possibility to choose the star trails effect when generating the timelapse frames.
