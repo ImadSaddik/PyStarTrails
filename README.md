@@ -83,3 +83,18 @@ I have pushed the first version of this project earlier than expected to share i
 - [ ] Separate the GUI from the CLI (Command-Line Interface) scripts.
 - [ ] Add support for gap filling in star trails.
 - [ ] Add the possibility to choose the star trails effect when generating the timelapse frames.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+## Contributions
+
+I welcome contributions! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
+
+## Need help?
+
+You can reach me through:  
+
+- **LinkedIn** – [Connect with me](https://www.linkedin.com/in/imadsaddik/).  
+- **Email** – [simad3647@gmail.com](mailto:simad3647@gmail.com).
