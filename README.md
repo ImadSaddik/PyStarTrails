@@ -7,3 +7,27 @@ This repository allows you to create star trails images and timelapse videos usi
 ## Live demo
 
 https://github.com/user-attachments/assets/a23a6de4-e19d-4c2e-8bec-afd0c538a003
+
+## Features
+
+### Stacking images
+
+You can stack multiple images to create a star trails effect. You have three scripts that control the shape of the trails:
+
+- [stack_all_images.py](./stack_all_images.py): This is the basic script that stacks all images together. It does not apply any special effects to the trails.
+- [stack_all_images_comet_style.py](./stack_all_images_comet_style.py): This script creates a comet-style effect, where the trails have a fading effect, making them look like comets.
+- [stack_all_images_fade_in_fade_out.py](./stack_all_images_fade_in_fade_out.py): This script creates trails that fade in and fade out.
+
+Here are images generated using each of the three scripts:
+
+| Basic stacking | Comet style | Fade in/out |
+|:--------------:|:-----------:|:-----------:|
+| ![stacked_star_trails.jpg](./images/stacked_star_trails.jpg) | ![stacked_star_trails_comet_style.jpg](./images/stacked_star_trails_comet_style.jpg) | ![stacked_star_trails_fade_in_out.jpg](./images/stacked_star_trails_fade_in_out.jpg) |
+
+### Creating timelapse videos
+
+Before creating a timelapse video, use the [generate_timelapse_frames.py](./generate_timelapse_frames.py) script to generate frames from your images. After generating the frames, you can create a timelapse video using the [create_timelapse_video.py](./create_timelapse_video.py) script.
+
+Here is the timelapse that I generated from my star trails images in 60 FPS:
+
+![timelapse_60fps.gif](./images/timelapse_60fps.gif)
