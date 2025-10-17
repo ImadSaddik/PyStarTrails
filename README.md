@@ -51,6 +51,16 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
+Install the [ruff](https://github.com/astral-sh/ruff) linter globally:
+
+```bash
+# On macOS and Linux.
+curl -LsSf https://astral.sh/ruff/install.sh | sh
+
+# On Windows.
+powershell -c "irm https://astral.sh/ruff/install.ps1 | iex"
+```
+
 Now, update the project's environment:
 
 ```bash
@@ -92,9 +102,26 @@ This project is licensed under the [MIT License](./LICENSE).
 
 I welcome contributions! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
 
+This project uses `ruff` for linting and formatting and `pre-commit` hooks to make sure that the code stays clean and consistent. Before you start, please set up your development environment:
+
+Sync the development dependencies:
+
+```bash
+uv sync --group dev
+```
+
+Install the pre-commit hooks:
+
+```bash
+uv run pre-commit install
+```
+
+Now, the linter and formatter will run automatically before each commit.
+
+
 ## Need help?
 
-You can reach me through:  
+You can reach me through:
 
-- **LinkedIn** – [Connect with me](https://www.linkedin.com/in/imadsaddik/).  
+- **LinkedIn** – [Connect with me](https://www.linkedin.com/in/imadsaddik/).
 - **Email** – [simad3647@gmail.com](mailto:simad3647@gmail.com).
