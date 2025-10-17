@@ -9,5 +9,6 @@ wheels/
 # Virtual environments
 .venv
 output/
-input/
+images/stacking_input/*.jpg
+images/stacking_input/*.png
 .vscode/

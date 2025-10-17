@@ -1,6 +1,6 @@
 # PyStarTrails
 
-![Thumbnail](./images/thumbnail.jpg)
+![Thumbnail](./images/readme/thumbnail.jpg)
 
 This repository allows you to create star trails images and timelapse videos using Python. The project uses [numpy](https://github.com/numpy/numpy) for image stacking and [imageio](https://github.com/imageio/imageio) for timelapse generation. Currently, you can run the provided Python scripts manually. In the future, I plan to add a GUI (Graphical User Interface) to make the process even easier.
 
@@ -22,7 +22,7 @@ Here are images generated using each of the three scripts:
 
 | Basic stacking | Comet style | Fade in/out |
 |:--------------:|:-----------:|:-----------:|
-| ![stacked_star_trails.jpg](./images/stacked_star_trails.jpg) | ![stacked_star_trails_comet_style.jpg](./images/stacked_star_trails_comet_style.jpg) | ![stacked_star_trails_fade_in_out.jpg](./images/stacked_star_trails_fade_in_out.jpg) |
+| ![stacked_star_trails.jpg](./images/readme/stacked_star_trails.jpg) | ![stacked_star_trails_comet_style.jpg](./images/readme/stacked_star_trails_comet_style.jpg) | ![stacked_star_trails_fade_in_out.jpg](./images/readme/stacked_star_trails_fade_in_out.jpg) |
 
 ### Create timelapse videos
 
@@ -30,7 +30,7 @@ Before creating a timelapse video, use the [generate_timelapse_frames.py](./gene
 
 Here is the timelapse that I generated from my star trails images in 60 FPS:
 
-![timelapse_60fps.gif](./images/timelapse_60fps.gif)
+![timelapse_60fps.gif](./images/readme/timelapse_60fps.gif)
 
 ## Usage
 
@@ -57,7 +57,7 @@ Now, update the project's environment:
 uv sync
 ```
 
-To stack images, run one of the stacking scripts. For example, to use the basic stacking script:
+Place your `jpg` or `png` images in the `stacking_input` folder. To stack images, run one of the stacking scripts. For example, to use the basic stacking script:
 
 ```bash
 uv run python stack_all_images.py
