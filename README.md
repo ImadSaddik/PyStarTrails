@@ -37,7 +37,7 @@ Here is the timelapse that I generated from my star trails images in 60 FPS:
 First, clone the repository and navigate to the project directory:
 
 ```bash
-git clone git@github.com:ImadSaddik/PyStarTrails.git
+git clone https://github.com/ImadSaddik/PyStarTrails.git
 cd PyStarTrails
 ```
 
