@@ -13,8 +13,8 @@ if not image_files:
 stacked_array = None
 decay_factor = 0.99
 
-for i, image_file in tqdm(
-    iterable=enumerate(image_files),
+for image_file in tqdm(
+    iterable=image_files,
     total=len(image_files),
     desc="Stacking images to form comet trails",
 ):

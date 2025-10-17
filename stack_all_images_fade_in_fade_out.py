@@ -19,10 +19,7 @@ for i, image_file in tqdm(
     total=number_of_images,
     desc="Stacking images (fade in/out)",
 ):
-    if mid_point > 0:
-        brightness = 1.0 - abs(i - mid_point) / mid_point
-    else:
-        brightness = 1.0
+    brightness = 1.0 - abs(i - mid_point) / mid_point if mid_point > 0 else 1.0
     current_array = convert_image_to_array(image_file).astype(np.float32)
     modified_array = current_array * brightness
     if stacked_array is None:
